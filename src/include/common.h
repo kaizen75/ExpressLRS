@@ -104,6 +104,7 @@ enum {
     RADIO_TYPE_LR1121_LORA_DUAL,
     RADIO_TYPE_SX128x_LORA,
     RADIO_TYPE_SX128x_FLRC,
+    RADIO_TYPE_SX126x_LORA,
 };
 
 typedef enum : uint8_t
