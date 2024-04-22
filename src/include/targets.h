@@ -276,7 +276,7 @@ extern bool pwmSerialDefined;
 #undef Regulatory_Domain_US_433
 #undef Regulatory_Domain_US_433_WIDE
 
-#elif defined(RADIO_SX127X) || defined(RADIO_LR1121 || defined(RADIO_SX126X))
+#elif defined(RADIO_SX127X) || defined(RADIO_LR1121) || defined(RADIO_SX126X)
 #if !(defined(Regulatory_Domain_AU_915) || defined(Regulatory_Domain_FCC_915) || \
         defined(Regulatory_Domain_EU_868) || defined(Regulatory_Domain_IN_866) || \
         defined(Regulatory_Domain_AU_433) || defined(Regulatory_Domain_EU_433) || \
