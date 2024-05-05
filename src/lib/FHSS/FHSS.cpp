@@ -3,11 +3,13 @@
 #include "options.h"
 #include <string.h>
 
-#if defined(RADIO_SX127X) || defined(RADIO_LR1121)
+#if defined(RADIO_SX126X) || defined(RADIO_SX127X) || defined(RADIO_LR1121)
 
 #if defined(RADIO_LR1121)
 #include "LR1121Driver.h"
-#else
+#elif defined(RADIO_SX126X)
+#include "SX126XDriver.h"
+#elif defined(RADIO_SX127X)
 #include "SX127xDriver.h"
 #endif
 
